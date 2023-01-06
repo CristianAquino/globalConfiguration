@@ -11,9 +11,9 @@ lint-staged se usa para que se revicen solo los ficheros que se modificaron y an
   - `npm i husky -D`
   - `npx i lint-staged -D`
   - creamos un fichero para el lint `.lintstagedrc` con la siguiente configuracion
-    ![](img/lintstage.png)
+    ![](../img/lintstage.png)
   - agreamos un script al package.json mediante `npm set-script prepare 'husky install'` o escribirlo directamente como
-    ![](img/prepare.png)
+    ![](../img/prepare.png)
   - ejecutamos mediante `npm run prepare` e instalara los hooks en la carpeta husky
 
 #

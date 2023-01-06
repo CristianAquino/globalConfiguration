@@ -8,7 +8,7 @@
   - Se siguen los pasos de la terminal
 - Para eliminar regla para todo el proyecto:
   - colocamos el nombre de la regla y ponemos 0
-    ![](img/regla.png)
+    ![](../img/rule.png)
 
 ## [Configurando slint con prettier](https://prettier.io/docs/en/index.html)
 
@@ -16,7 +16,7 @@
   - `npm i -D prettier eslint-config-prettier eslint-plugin-prettier`
   - Creamos un archivo `.prettierrc.cjs` y agregamos la configuracion
   - Agregamos prettier como plugin y extension en `.eslintrc.cjs`
-    ![](img/prettier.png)
+    ![](../img/prettier.png)
 
 se recomienda crear un archivo `.eslintignore` y poner dentro node_modules
 
@@ -26,4 +26,4 @@ se recomienda crear un archivo `.eslintignore` y poner dentro node_modules
 - Pasos para instalacion y configuracion:
   - `npm i standard -D`
   - Realizamos la configuracion en el package.json como se ve en la sgt. imagen
-    ![](img/standard.png)
+    ![](../img/standard.png)
